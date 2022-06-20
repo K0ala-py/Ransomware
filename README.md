@@ -1,1 +1,9 @@
 # Ransomware
+
+USE IT FOR LEGAL PURPOSE
+####NOTE####
+BEFORE YOU RUN THIS SCRIPT YOU NEED:
+
+pip install -r requirements.txt
+
+PLEASE MODIFY THE PATH IN THE SOURCE CODE.
