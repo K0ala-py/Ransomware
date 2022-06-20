@@ -14,10 +14,6 @@ file_style = Style.parse('dark_slate_gray2')
 
 os.system('clear')
 
-os.system('pip install -r req.txt')
-
-
-
 # path to crypt
 crypt_path = '/'       #Specified Path!!
 
