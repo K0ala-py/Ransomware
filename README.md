@@ -1,4 +1,4 @@
-# Ransomware
+# Ransomware for Linux (debian and ubuntu distro)
 
 USE IT FOR LEGAL PURPOSE
 ####NOTE####
