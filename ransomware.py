@@ -15,7 +15,7 @@ file_style = Style.parse('dark_slate_gray2')
 os.system('clear')
 
 # path to crypt
-crypt_path = '/'       #Specified Path!!
+crypt_path = '/home'       #Specified Path!!
 cp = crypt_path
 
 def multpy():
