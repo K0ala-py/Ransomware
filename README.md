@@ -1,6 +1,8 @@
 
 # Ransomware for Linux (debian and ubuntu distro)
 
+⚠️I take no responsibility for any damage caused by the program⚠️
+
 ## VERSION
 This is the 1.2 Version of Ransomware
 
