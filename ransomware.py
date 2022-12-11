@@ -3,7 +3,7 @@ from key_gen import key_gen
 from encrypt import enc_process
 
 def main():
-    for (path,dirs,files) in os.walk('DIRECTORY PATH',topdown=True):        #CHANGE HERE
+    for (path,dirs,files) in os.walk('CHANGE HERE',topdown=True):        #CHANGE HERE
             for file in files:
                 if True:
                     file = path+'/'+file
