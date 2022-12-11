@@ -9,4 +9,4 @@ This is the 1.2 Version of Ransomware
 ## NOTE
 - DON'T USE IT FOR ILLEGAL PURPOSE
 - AT LINE 6 PLEASE MODIFY THE PATH IN THE SOURCE CODE (ransomware.py)
-- FOR ANY PROBLEM DOWNLOAD "decrypt_ransomware.py" AND NOT DELATE THE "keys.txt" FILE!
+- FOR ANY PROBLEM DOWNLOAD "decrypt_ransomware.py" & "decrypt.py" AND NOT DELATE THE "keys.txt" FILE!
