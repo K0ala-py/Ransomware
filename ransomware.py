@@ -3,9 +3,8 @@ from key_gen import key_gen
 from encrypt import enc_process
 
 def main():
-    for (path,dirs,files) in os.walk('./test',topdown=True):
+    for (path,dirs,files) in os.walk('DIRECTORY PATH',topdown=True):        #CHANGE HERE
             for file in files:
-                #if file[-3:] == 'txt':
                 if True:
                     file = path+'/'+file
                     key_gen()                                       # generate the key
