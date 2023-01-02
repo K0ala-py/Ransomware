@@ -1,5 +1,5 @@
 from cryptography.fernet import Fernet
-def dec_process(file,key):                      # this is an funcion used in "ransomware.py" file for encrypt
+def dec_process(file,key):                      # this is an funcion used in "ransomware.py" file for decrypt
     f = Fernet(key)
     with open(file,'rb') as encrypted_file:
         encrypted = encrypted_file.read()
