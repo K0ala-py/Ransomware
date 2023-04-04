@@ -14,4 +14,4 @@ This is the 1.2 Version of Ransomware
 
 ## Acknowledgements
 
- - [in collaboration with](https://github.com/Octopus-ssh/)
+ - [in collaboration with my friend Octopus-ssh](https://github.com/Octopus-ssh/)
