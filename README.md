@@ -11,7 +11,3 @@ This is the 1.2 Version of Ransomware
 - AT LINE 6 PLEASE MODIFY THE PATH IN THE SOURCE CODE (ransomware.py)
 - FOR ANY PROBLEM DOWNLOAD "decrypt_ransomware.py" & "decrypt.py" AND NOT DELATE THE "keys.txt" FILE!
 - NO LIBRARY REQUIRED
-
-## Acknowledgements
-
- - [in collaboration with my friend Octopus-ssh](https://github.com/Octopus-ssh/)
